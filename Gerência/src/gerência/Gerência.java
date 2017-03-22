@@ -1,11 +1,14 @@
 package gerência;
 
+import javax.swing.JOptionPane;
+
 public class Gerência {
 
     public static void main(String[] args) {
         int soma;
         int num1 = 0;
         int num2 = 0;
+
         num1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um numero:"));
 
         num2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite outro numero:"));
